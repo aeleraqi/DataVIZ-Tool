@@ -1,33 +1,42 @@
-# 📊 Data Visualization Tool
+# DataVIZ Tool 📊
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Jupyter Notebook](https://img.shields.io/badge/Platform-Jupyter%20Notebook-orange?logo=jupyter)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
+[![Language](https://img.shields.io/badge/Language-Python%20%7C%20Jupyter-blue)](https://github.com/aeleraqi/DataVIZ-Tool)
+[![Stars](https://img.shields.io/github/stars/aeleraqi/DataVIZ-Tool?style=social)](https://github.com/aeleraqi/DataVIZ-Tool/stargazers)
 
-## Overview
+An interactive **Data Visualization Tool** — create beautiful charts and graphs with minimal code.
 
-The **Data Visualization Tool** is a Jupyter notebook-based utility designed to simplify the process of visualizing data using Python's popular libraries. This tool allows users to create insightful and interactive visualizations, making it easier to understand and communicate data trends, patterns, and distributions.
+## 📖 About
 
-### Features
-- 📊 Supports various chart types including line plots, bar charts, scatter plots, histograms, box plots, and heatmaps.
-- 📈 Utilizes well-known Python libraries like **Matplotlib**, **Seaborn**, and **Plotly** for creating static and interactive visualizations.
-- 🛠️ User-friendly interface with step-by-step instructions to guide you through data visualization processes.
-- 🎨 Customizable visual elements to tailor plots according to specific requirements, such as labels, colors, styles, and more.
+**DataVIZ-Tool** simplifies data visualization by providing an intuitive interface that wraps Python's most powerful visualization libraries. Upload any dataset and explore it visually without writing chart code from scratch.
 
-## Prerequisites
+## ✨ Features
 
-Before using the Data Visualization Tool, make sure you have the following software and libraries installed:
-- **Python 3.x**: The tool requires Python, preferably version 3.6 or higher.
-- **Jupyter Notebook**: The notebook can be run on your local machine or on a cloud-based platform like **Google Colab**.
+- Upload CSV/Excel datasets directly in the notebook
+- Multiple chart types: bar, line, scatter, pie, heatmap, histogram
+- Interactive controls for axes, colors, and grouping
+- Export charts as PNG/SVG/HTML
+- Automatic summary statistics alongside visuals
 
-### How to Use Google Colab
-You can use the tool on Google Colab without needing to install anything locally:
-1. Open [Google Colab](https://colab.research.google.com/drive/1gQGLVXLzLa1-lQPxOD_ttfcrl_S4emAF?usp=sharing).
-2. Upload the notebook file (`DataVIZ_Tool.ipynb`) directly to Colab.
-3. Install the required libraries by running the installation commands in the Colab cells.
+## 🚀 Getting Started
 
-### Required Libraries
-The notebook relies on several Python libraries for data analysis and visualization. You can install all required libraries using the following command:
 ```bash
-pip install pandas numpy matplotlib seaborn plotly
+git clone https://github.com/aeleraqi/DataVIZ-Tool.git
+pip install pandas matplotlib seaborn plotly ipywidgets
+jupyter notebook DataVIZ_Tool.ipynb
+```
+
+## 📊 Supported Chart Types
+
+| Type | Use Case |
+|------|----------|
+| Bar Chart | Comparing categories |
+| Line Chart | Trends over time |
+| Scatter Plot | Relationships between variables |
+| Histogram | Distributions |
+| Heatmap | Correlation matrices |
+| Pie/Donut | Part-to-whole proportions |
+
+---
+**Author:** [Amr Eleraqi](https://github.com/aeleraqi) — Data Analyst | NLP Specialist | Machine Learning Expert | Educator  
+**Affiliation:** Toronto Metropolitan University, Ontario, Canada  
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0003--0935--0026-brightgreen)](https://orcid.org/0000-0003-0935-0026) [![GitHub](https://img.shields.io/github/followers/aeleraqi?label=Follow&style=social)](https://github.com/aeleraqi)
